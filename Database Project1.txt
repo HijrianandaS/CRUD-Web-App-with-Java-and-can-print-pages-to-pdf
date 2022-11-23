@@ -1,0 +1,14 @@
+create database myjavacode1;
+
+create table project1(
+	ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	Name varchar(255), 
+	Email varchar(255), 
+	Address varchar(255), 
+	Phone varchar(255), 
+	City varchar(255), 
+	Country varchar(255), 
+	Education varchar(255), 
+	Foto blob, 
+	date Datetime default now()
+);
